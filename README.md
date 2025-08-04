@@ -1,4 +1,4 @@
-# E-Commerce Accessment Project
+# E-Commerce Assessment Project
 
 ## Introduction
 - This project is made using react, vite and tailwindcss, it has functionality to filter by type, search product by keyword, pagination and responsiveness!
