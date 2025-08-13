@@ -68,7 +68,6 @@ function ProductList() {
     <div className="p-5 max-w-screen-xl mx-auto">
       <h1 className="text-2xl font-semibold mb-6 text-center">Product Catalog</h1>
 
-      {/* Filters */}
       <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6">
         <select
           value={selectedCategory}
@@ -91,7 +90,6 @@ function ProductList() {
         />
       </div>
 
-      {/* Product Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {currentProducts.length > 0 ? (
           currentProducts.map((product) => (
@@ -102,7 +100,6 @@ function ProductList() {
         )}
       </div>
 
-      {/* Pagination */}
       <div className="flex justify-center mt-10 gap-2 flex-wrap">
         <button
           onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
